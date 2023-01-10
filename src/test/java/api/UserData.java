@@ -2,11 +2,11 @@ package api;
 
 public class UserData {
 
-    public Integer id;
-    public String email;
-    public String first_name;
-    public String last_name;
-    public String avatar;
+    private Integer id;
+    private String email;
+    private String first_name;
+    private String last_name;
+    private String avatar;
 
     public UserData(Integer id, String email, String first_name, String last_name, String avatar) {
         this.id = id;
