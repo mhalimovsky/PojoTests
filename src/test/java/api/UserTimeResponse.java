@@ -1,6 +1,6 @@
 package api;
 
-public class UserTimeResponse extends  UserTime{
+public class UserTimeResponse extends UserTime {
     private String updatedAt;
 
     public UserTimeResponse(String name, String job, String updatedAt) {
@@ -11,4 +11,6 @@ public class UserTimeResponse extends  UserTime{
     public String getUpdatedAt() {
         return updatedAt;
     }
+
+
 }
