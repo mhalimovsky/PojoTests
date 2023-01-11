@@ -3,6 +3,10 @@ package test;
 import api.*;
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
+import registration.Registration;
+import registration.SuccessRegistration;
+import registration.UnSuccessRegistration;
+import specification.Specifications;
 
 import java.time.Clock;
 import java.util.List;

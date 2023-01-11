@@ -1,4 +1,4 @@
-package api;
+package registration;
 
 public class Registration {
 
